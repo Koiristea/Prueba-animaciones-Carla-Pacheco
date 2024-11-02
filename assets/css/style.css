@@ -23,7 +23,7 @@
 @media (min-width: 576px) {
     .page {
         display: grid;
-        grid-template-columns: 0.8fr 2.4fr;
+        grid-template-columns: 0.4fr 2.4fr;
         grid-template-rows: 0.3fr 1.7fr 0.3fr;
         grid-auto-columns: 1fr;
         gap: 0px 0px;
@@ -79,14 +79,15 @@ nav {
         flex-direction: column;
         height: 100%;
         justify-content: start;
+        width: 100%;
         & span {
             border-bottom: solid 2px #222618;
-            margin: 3.5vh 6vh 3.5vh 1.7vh;
+            margin: 3.5vh 6vh 4.7vh 1.7vh;
             width: 90%;
-            height: 10vh;
+            height: 12vh;
             justify-content: center;
             & i {
-                font-size: 7vh;
+                font-size: 6vh;
                 margin: auto 0 auto 2.5vh;
             }
             & h1 {
@@ -95,15 +96,16 @@ nav {
             }
         }
         & menu {
+            width: 100%;
             & .mobile-menu {
                 display: none;
             }
             & .desktop-menu {
                 display: flex;
                 flex-direction: column;
-                margin: auto;
+                margin: auto 0;
                 height: 100%;
-                width: 99%;
+                width: 70%;
                 & button {
                     display: flex;
                     margin: 4vh 0 1.5vh 2vh;
@@ -113,7 +115,7 @@ nav {
                     border: none;
                     background-color: #C5CDC2;
                     color: #222618;
-                    font-size: 4.3vh;
+                    font-size: 3.3vh;
                 }
                 & a {
                     text-decoration: none;
@@ -150,10 +152,11 @@ form {
     }
     @media  (min-width: 576px) {
         & h4 {
-            font-size: 7vh;
+            font-size: 5.5vh;
         }
         & select {
-            font-size: 3vh;
+            font-size: 2.5vh;
+            width: 24vh;
         }
     }
 }
@@ -209,6 +212,11 @@ main {
             height: auto;
             transition: transform 0.4s ease-in-out;
         }
+        @media (min-height: 604px) {
+            & .designs {
+                width: 45%;
+            }
+        }
         & .designs:hover {
             transform: scale(.95) rotate(10deg);
         }
@@ -222,6 +230,7 @@ main {
             display: flex;
         }
     }
+
     & .displace {
         display: flex;
         justify-content: center;
@@ -293,13 +302,14 @@ footer {
         & .social {
             margin: 1vh auto;
             & a {
-                font-size: 5vh;
+                font-size: 4.4vh;
             }
         }
         & p {
             text-align: center;
+            width: 90%;
             margin: .5vh auto 1vh auto;
-            font-size: 4vh;
+            font-size: 2.4vh;
         }
     }
 }
