@@ -41,17 +41,18 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: #C5CDC2;
+    width: 100%;
     & span {
         display: flex;
-        height: 26vh;
-        margin: auto 3vh;
+        height: 6vh;
+        margin: auto 1vh;
         & i {
-            font-size: 11vh;
+            font-size: 5vh;
             margin: auto 1vh;
         }
         & h1 {
             margin: auto 0;
-            font-size: 8vh;
+            font-size: 3vh;
             font-family: "Lucida Handwriting", cursive;
         }
     }
@@ -61,8 +62,8 @@ nav {
             height: 100%;
             & button {
                 display: flex;
-                margin: auto 8vh;
-                font-size: 11vh;
+                margin: auto 4vh;
+                font-size: 4.5vh;
                 background-color: #C5CDC2;
             }
         }
@@ -130,20 +131,21 @@ form {
     flex-direction: column;
     background-color: #BB8755;
     & h4 {
-        margin: 2vh auto;
-        font-size: 8vh;
+        margin: 1vh auto;
+        font-size: 3vh;
         font-family: Courier, monospace;
     }
     & select {
         display: flex;
-        margin: 0 auto 2vh auto;
+        margin: 0 auto 1vh auto;
         font-family: Courier, monospace;
-        font-size: 4vh;
-        width: 35%;
+        font-size: 2vh;
+        font-weight: 600;
+        width: 38%;
         border-radius: 50px;
         text-align: center;
         & option {
-            font-size: 2vh;
+            font-size: 1.5vh;
         }
     }
     @media  (min-width: 576px) {
@@ -160,17 +162,18 @@ main {
     grid-area: main;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: #765438;
     width: 100%;
     height: 100%;
     & .mobile-gallery {
-        border: solid 3vh #C5CDC2;
+        border: solid 1.3vh #C5CDC2;
         border-radius: 30px;
         display: flex;
         flex-direction: column;
-        margin: 19vh 6vh;
-        width: 94vh;
-        height: 94vh;
+        margin: auto;
+        width: 38vh;
+        height: 38vh;
         overflow-y: scroll;
         position: relative;
         & .flecha {
@@ -187,7 +190,6 @@ main {
             opacity: 0;
         }
         & .designs {
-
             width: 100%;
             height: 100%;
         }
@@ -200,7 +202,6 @@ main {
         margin: auto;
         overflow-y: scroll;
         position: relative;
-        margin: auto;
         & .designs {
             margin: 4vh auto;
             display: flex;
@@ -225,20 +226,21 @@ main {
         display: flex;
         justify-content: center;
         background-color: #C5CDC2;
-        height: 20vh;
-        font-size: 12vh;
+        height: 9vh;
+        font-size: 4vh;
+        width: 100%;
         & p {
             display: flex;
             justify-content: center;
             flex-direction: column;
-            margin: auto 8vh;
+            margin: auto 1vh;
             text-align: center;
-            height: 10vh;
-            width: 9vh;
+            height: 4.5vh;
+            width: 4vh;
             border: solid .5vh #222618;
         }
         & i {
-            font-size: 8vh;
+            font-size: 4vh;
             margin: auto 1vh;
         }
     }
@@ -264,14 +266,15 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: #222618;
+    width: 100%;
     height: 100%;
     & .social {
         display: flex;
         width: 100%;
-        margin: 3vh auto;
+        margin: 1vh auto 0 auto;
         justify-content: center;
         & a {
-            font-size: 9vh;
+            font-size: 5vh;
             color: #C5CDC2;
             margin: auto 1vh;
         }
@@ -280,9 +283,9 @@ footer {
         display: flex;
         width: 100%;
         height: 100%;
-        margin: 1vh auto 3vh auto;
+        margin: .9vh auto 2.2vh auto;
         justify-content: center;
-        font-size: 5vh;
+        font-size: 3.2vh;
         color: #C5CDC2;
     }
 
