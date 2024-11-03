@@ -211,7 +211,7 @@ main {
         }
         @media (min-height: 604px) {
             & .designs {
-                width: 45%;
+                width: 40%;
             }
         }
         & .designs:hover {
