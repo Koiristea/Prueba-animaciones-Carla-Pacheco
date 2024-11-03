@@ -106,8 +106,9 @@ nav {
                 margin: auto 0;
                 height: 100%;
                 width: 70%;
-                & button {
+                & a {
                     display: flex;
+                    font-size: 3vh;
                     margin: 4vh 0 1.5vh 2vh;
                     font-family: Courier, monospace;
                     font-weight: 600;
@@ -115,10 +116,6 @@ nav {
                     border: none;
                     background-color: #C5CDC2;
                     color: #222618;
-                    font-size: 3.3vh;
-                }
-                & a {
-                    text-decoration: none;
                 }
             }
         }
